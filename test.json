@@ -1,20 +1,14 @@
-[{
-	"columns": [{
-			"text": "Time",
-			"type": "time"
-		},
-		{
-			"text": "Country",
-			"type": "string"
-		},
-		{
-			"text": "Number",
-			"type": "number"
-		}
-	],
-	"rows":
+[
+  {
+    "columns":[
+      {"text":"cod_alm","type":"string"},
+      {"text":"cod_caja","type":"string"},
+      {"text":"ise_status","type":"number"}
+    ],
+    "rows":
 
-		[{
+		[
+			{
 				"cod_alm": "233",
 				"cod_caja": "3",
 				"ise_status": ""
@@ -3019,6 +3013,7 @@
 				"cod_caja": "3",
 				"ise_status": ""
 			}
-		],
+		], 
 	"type": "table"
-}]
+  }
+]
